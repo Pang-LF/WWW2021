@@ -76,8 +76,8 @@ Train data: (327, 270), Train label: (327, 3)
 Val data: (38, 270), Val label: (38, 3)
 Test data: (81, 270), Test label: (81, 3)
 
-2022-10-25 21:05:12.595291: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
-2022-10-25 21:05:12.603319: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+2022-10-24 21:05:12.595291: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-10-24 21:05:12.603319: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 
 Model: "model"
@@ -108,7 +108,7 @@ None
 Sample Weights when traning: 
 None
 
-2022-10-25 21:05:12.792420: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2022-10-24 21:05:12.792420: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
 Epoch 1/50
 11/11 [==============================] - 1s 62ms/step - loss: 3.3081 - accuracy: 0.2837 - val_loss: 3.0612 - val_accuracy: 0.4211
 Epoch 2/50
