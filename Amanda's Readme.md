@@ -23,7 +23,7 @@
             "trust": 0.1391817033290863},
   "id":string,
   "label":string, # fake, real or unverified.
-  "comments100_emotions_labels_mean_pooling": format same as content emotions labels,
+  "comments100_emotions_labels_mean_pooling": format same as content emotions labels, #最早发出的100条评论
   "comments100_emotions_labels_max_pooling": format same as content emotions labels,
   "comments100_emotions_probs_mean_pooling": format same as content emotions probs,
   "comments100_emotions_probs_max_pooling": format same as content emotions probs
@@ -47,6 +47,13 @@
 存到 code/preprocess/data/dataset_name/semantics的npy文件中
 ##### code/emotion
 extract_emotion_en: preprocess时调用
-
+```
+def nvidia_arr(labels, probs): 将传入的labels和probs concat.先labels再concat，有一方为none则全设为0
+def cut_words_from_text 调用 def del_url_at: 分割文本为list，例如：['a', 'test', 'string', '.', 'a', 'test', 'string', '!']
+def extract_dual_emotion = extract_publisher_emotion，extract_social_emotion，计算得到的gap
+def extract_publisher_emotion = nvidia_arr，nrc_arr，sentiment_score，auxilary_features
+def extract_social_emotion 每个comment都得到publisher emotion arr，计算mean和max，social_emotion = mean，max
+```
 ##### code/model
+
 ##### code/train
